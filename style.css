@@ -1,0 +1,943 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,600);
+
+
+.RTM {
+  font-family: 'Roboto', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 130px;
+  max-width: 215px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  line-height: 1.4em;
+  background-color: #003f5c;
+}
+.RTM * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.RTM img {
+  max-width: 100%;
+  vertical-align: top;
+
+}
+.RTM figcaption {
+  width: 100%;
+  background-color: #;
+  padding: 5px 20px 15px 20px;
+  position: relative;
+  
+}
+.RTM figcaption:before {
+  position: absolute;
+  content: '';
+  bottom: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 0 0 210px;
+  border-color: transparent transparent transparent #148F9D;
+}
+.RTM figcaption a {
+  padding: 5px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  margin: 5px 0;
+  display: inline-block;
+  width: 75%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.RTM figcaption a:hover {
+  opacity: .65;
+}
+.RTM .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100%;
+  left: 25px;
+  z-index: 1;
+  max-width: 90px;
+  opacity: 1;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.RTM .follow {
+  margin-right: 4%;
+  border-color: #2980b9;
+  color: #2980b9;
+}
+.RTM h2 {
+  margin: 8px 8px;
+  font-weight: 300;
+  text-align: center;
+}
+.RTM h2 span {
+  display: block;
+  font-size: 0.5em;
+  color: #2980b9;
+}
+.RTM p {
+  margin: 0 0 10px;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+
+/* Block two */ 
+
+.ATM {
+  font-family: 'Roboto', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 130px;
+  max-width: 215px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  line-height: 1.4em;
+  background-color: #2f4b7c;
+}
+.ATM * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.ATM img {
+  max-width: 100%;
+  vertical-align: top;
+
+}
+.ATM figcaption {
+  width: 100%;
+  background-color: #;
+  padding: 5px 20px 15px 20px;
+  position: relative;
+  
+}
+.ATM figcaption:before {
+  position: absolute;
+  content: '';
+  bottom: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 0 0 210px;
+  border-color: transparent transparent transparent #9474b8;
+}
+.ATM figcaption a {
+  padding: 5px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  margin: 5px 0;
+  display: inline-block;
+  width: 75%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.ATM figcaption a:hover {
+  opacity: .65;
+}
+.ATM .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100%;
+  left: 25px;
+  z-index: 1;
+  max-width: 90px;
+  opacity: 1;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.ATM .follow {
+  margin-right: 4%;
+  border-color: #2980b9;
+  color: #2980b9;
+}
+.ATM h2 {
+  margin: 8px 8px;
+  font-weight: 300;
+  text-align: center;
+}
+.ATM h2 span {
+  display: block;
+  font-size: 0.5em;
+  color: #2980b9;
+}
+.ATM p {
+  margin: 0 0 10px;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+/* Block three */ 
+
+.TL {
+  font-family: 'Roboto', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 130px;
+  max-width: 215px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  line-height: 1.4em;
+  background-color: #665191;
+}
+.TL * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.TL img {
+  max-width: 100%;
+  vertical-align: top;
+
+}
+.TL figcaption {
+  width: 100%;
+  background-color: #;
+  padding: 5px 20px 15px 20px;
+  position: relative;
+  
+}
+.TL figcaption:before {
+  position: absolute;
+  content: '';
+  bottom: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 0 0 210px;
+  border-color: transparent transparent transparent #B45C7A;
+}
+.TL figcaption a {
+  padding: 5px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  margin: 5px 0;
+  display: inline-block;
+  width: 75%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.TL figcaption a:hover {
+  opacity: .65;
+}
+.TL .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100%;
+  left: 25px;
+  z-index: 1;
+  max-width: 90px;
+  opacity: 1;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.TL .follow {
+  margin-right: 4%;
+  border-color: #2980b9;
+  color: #2980b9;
+}
+.TL h2 {
+  margin: 8px 8px;
+  font-weight: 300;
+  text-align: center;
+}
+.TL h2 span {
+  display: block;
+  font-size: 0.5em;
+  color: #2980b9;
+}
+.TL p {
+  margin: 0 0 10px;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+/* Block four */ 
+
+.RCCO {
+  font-family: 'Roboto', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 130px;
+  max-width: 215px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  line-height: 1.4em;
+  background-color: #a05195;
+}
+.RCCO * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.RCCO img {
+  max-width: 100%;
+  vertical-align: top;
+
+}
+.RCCO figcaption {
+  width: 100%;
+  background-color: #;
+  padding: 5px 20px 15px 20px;
+  position: relative;
+  
+}
+.RCCO figcaption:before {
+  position: absolute;
+  content: '';
+  bottom: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 0 0 210px;
+  border-color: transparent transparent transparent #03A45E;
+}
+.RCCO figcaption a {
+  padding: 5px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  margin: 5px 0;
+  display: inline-block;
+  width: 75%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.RCCO figcaption a:hover {
+  opacity: .65;
+}
+.RCCO .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100%;
+  left: 25px;
+  z-index: 1;
+  max-width: 90px;
+  opacity: 1;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.RCCO .follow {
+  margin-right: 4%;
+  border-color: #2980b9;
+  color: #2980b9;
+}
+.RCCO h2 {
+  margin: 8px 8px;
+  font-weight: 300;
+  text-align: center;
+}
+.RCCO h2 span {
+  display: block;
+  font-size: 0.5em;
+  color: #2980b9;
+}
+.RCCO p {
+  margin: 0 0 10px;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+/* Block five */ 
+
+.RCCON {
+  font-family: 'Roboto', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 130px;
+  max-width: 215px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  line-height: 1.4em;
+  background-color: #d45087;
+}
+.RCCON * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.RCCON img {
+  max-width: 100%;
+  vertical-align: top;
+
+}
+.RCCON figcaption {
+  width: 100%;
+  background-color: #;
+  padding: 5px 20px 15px 20px;
+  position: relative;
+  
+}
+.RCCON figcaption:before {
+  position: absolute;
+  content: '';
+  bottom: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 0 0 210px;
+  border-color: transparent transparent transparent #db4d3b;
+}
+.RCCON figcaption a {
+  padding: 5px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  margin: 5px 0;
+  display: inline-block;
+  width: 75%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.snip1340 figcaption a:hover {
+  opacity: .65;
+}
+.RCCON .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100%;
+  left: 25px;
+  z-index: 1;
+  max-width: 90px;
+  opacity: 1;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.RCCON .follow {
+  margin-right: 4%;
+  border-color: #2980b9;
+  color: #2980b9;
+}
+.RCCON h2 {
+  margin: 8px 8px;
+  font-weight: 300;
+  text-align: center;
+}
+.RCCON h2 span {
+  display: block;
+  font-size: 0.5em;
+  color: #2980b9;
+}
+.RCCON p {
+  margin: 0 0 10px;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+
+/* Block six */ 
+
+.BURSER {
+  font-family: 'Roboto', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 130px;
+  max-width: 215px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  line-height: 1.4em;
+  background-color: #D93643;
+}
+.BURSER * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.BURSER img {
+  max-width: 100%;
+  vertical-align: top;
+
+}
+.BURSER figcaption {
+  width: 100%;
+  background-color: #;
+  padding: 5px 20px 15px 20px;
+  position: relative;
+  
+}
+.BURSER figcaption:before {
+  position: absolute;
+  content: '';
+  bottom: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 0 0 210px;
+  border-color: transparent transparent transparent #666363;
+}
+.BURSER figcaption a {
+  padding: 5px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  margin: 5px 0;
+  display: inline-block;
+  width: 75%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.BURSER figcaption a:hover {
+  opacity: .65;
+}
+.BURSER .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100%;
+  left: 25px;
+  z-index: 1;
+  max-width: 90px;
+  opacity: 1;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.BURSER .follow {
+  margin-right: 4%;
+  border-color: #2980b9;
+  color: #2980b9;
+}
+.BURSER h2 {
+  margin: 8px 8px;
+  font-weight: 300;
+  text-align: center;
+}
+.BURSER h2 span {
+  display: block;
+  font-size: 0.5em;
+  color: #2980b9;
+}
+.BURSER p {
+  margin: 0 0 10px;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+/* Block Seven */ 
+
+.OS {
+  font-family: 'Roboto', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 130px;
+  max-width: 215px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  line-height: 1.4em;
+  background-color: #2777B4;
+}
+.OS * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.OS img {
+  max-width: 100%;
+  vertical-align: top;
+
+}
+.OS figcaption {
+  width: 100%;
+  background-color: #;
+  padding: 5px 20px 15px 20px;
+  position: relative;
+  
+}
+.OS figcaption:before {
+  position: absolute;
+  content: '';
+  bottom: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 0 0 210px;
+  border-color: transparent transparent transparent #666363;
+}
+.OS figcaption a {
+  padding: 5px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  margin: 5px 0;
+  display: inline-block;
+  width: 75%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.OS figcaption a:hover {
+  opacity: .65;
+}
+.OS .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100%;
+  left: 25px;
+  z-index: 1;
+  max-width: 90px;
+  opacity: 1;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.OS .follow {
+  margin-right: 4%;
+  border-color: #2980b9;
+  color: #2980b9;
+}
+.OS h2 {
+  margin: 8px 8px;
+  font-weight: 300;
+  text-align: center;
+}
+.OS h2 span {
+  display: block;
+  font-size: 0.5em;
+  color: #2980b9;
+}
+.OS p {
+  margin: 0 0 10px;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+/* Block Eight */ 
+
+.COOK {
+  font-family: 'Roboto', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 130px;
+  max-width: 215px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  line-height: 1.4em;
+  background-color: #1C827C;
+}
+.COOK * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.COOK img {
+  max-width: 100%;
+  vertical-align: top;
+
+}
+.COOK figcaption {
+  width: 100%;
+  background-color: #;
+  padding: 5px 20px 15px 20px;
+  position: relative;
+  
+}
+.COOK figcaption:before {
+  position: absolute;
+  content: '';
+  bottom: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 0 0 210px;
+  border-color: transparent transparent transparent #666363;
+}
+.COOK figcaption a {
+  padding: 5px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  margin: 5px 0;
+  display: inline-block;
+  width: 75%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.COOK figcaption a:hover {
+  opacity: .65;
+}
+.COOK .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100%;
+  left: 25px;
+  z-index: 1;
+  max-width: 90px;
+  opacity: 1;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.COOK .follow {
+  margin-right: 4%;
+  border-color: #2980b9;
+  color: #2980b9;
+}
+.COOK h2 {
+  margin: 8px 8px;
+  font-weight: 300;
+  text-align: center;
+}
+.COOK h2 span {
+  display: block;
+  font-size: 0.5em;
+  color: #2980b9;
+}
+.COOK p {
+  margin: 0 0 10px;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+
+/* Block Nine */ 
+
+.DOM {
+  font-family: 'Roboto', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 130px;
+  max-width: 215px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  line-height: 1.4em;
+  background-color: #676767;
+}
+.DOM * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.DOM img {
+  max-width: 100%;
+  vertical-align: top;
+
+}
+.DOM figcaption {
+  width: 100%;
+  background-color: #;
+  padding: 5px 20px 15px 20px;
+  position: relative;
+  
+}
+.DOM figcaption:before {
+  position: absolute;
+  content: '';
+  bottom: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 0 0 210px;
+  border-color: transparent transparent transparent #666363;
+}
+.DOM figcaption a {
+  padding: 5px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  margin: 5px 0;
+  display: inline-block;
+  width: 75%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.DOM figcaption a:hover {
+  opacity: .65;
+}
+.DOM .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100%;
+  left: 25px;
+  z-index: 1;
+  max-width: 90px;
+  opacity: 1;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.DOM .follow {
+  margin-right: 4%;
+  border-color: #2980b9;
+  color: #2980b9;
+}
+.DOM h2 {
+  margin: 8px 8px;
+  font-weight: 300;
+  text-align: center;
+}
+.DOM h2 span {
+  display: block;
+  font-size: 0.5em;
+  color: #2980b9;
+}
+.DOM p {
+  margin: 0 0 10px;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+/* Block Ten */ 
+
+.HP {
+  font-family: 'Roboto', Arial, sans-serif;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 130px;
+  max-width: 215px;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  line-height: 1.4em;
+  background-color: #B45C7A;
+}
+.HP * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+.HP img {
+  max-width: 100%;
+  vertical-align: top;
+
+}
+.HP figcaption {
+  width: 100%;
+  background-color: #;
+  padding: 5px 20px 15px 20px;
+  position: relative;
+  
+}
+.HP figcaption:before {
+  position: absolute;
+  content: '';
+  bottom: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 0 0 210px;
+  border-color: transparent transparent transparent #666363;
+}
+.HP figcaption a {
+  padding: 5px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  margin: 5px 0;
+  display: inline-block;
+  width: 75%;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.HP figcaption a:hover {
+  opacity: .65;
+}
+.HP .profile {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100%;
+  left: 25px;
+  z-index: 1;
+  max-width: 90px;
+  opacity: 1;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.HP .follow {
+  margin-right: 4%;
+  border-color: #2980b9;
+  color: #2980b9;
+}
+.HP h2 {
+  margin: 8px 8px;
+  font-weight: 300;
+  text-align: center;
+}
+.HP h2 span {
+  display: block;
+  font-size: 0.5em;
+  color: #2980b9;
+}
+.HP p {
+  margin: 0 0 10px;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  text-align: center;
+}
